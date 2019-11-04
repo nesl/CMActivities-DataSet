@@ -1,6 +1,6 @@
 # CMActivities-DataSet
 
-### More details about the dataset
+## More details about the dataset
 See the following publication for more details on the data processing and collection process. Please cite the following paper when using the dataset. We have provided the sample training scripts.
 
 ```
@@ -14,7 +14,7 @@ See the following publication for more details on the data processing and collec
 }
 ```
 
-### Released data
+## Released data
 - The audio and IMU windowed samples are released. Audio samples are processed, and 193 features are extracted. IMU samples are available in raw form.
 - The training, validation, and test samples are available.
 - [Training samples download](https://drive.google.com/file/d/1S9yFuHarB6jPD11Ddv87oG30TgY5ivDN/view?usp=sharing)
@@ -22,5 +22,15 @@ See the following publication for more details on the data processing and collec
 - [Test samples download](https://drive.google.com/file/d/1A5SW8ttsYzYKTvoqWdRJ_e5gQLJ67C2I/view?usp=sharing)
 - More data processing details are in the publication.
 
-### Sample Model Training Scripts
-- [Audio Model Training](https://github.com/nesl/CMActivities-DataSet/blob/master/Audio_Model_Example.ipynb)
+## Sample Model Training Scripts
+### Audio Model
+- [Audio Model Training Notebook](https://github.com/nesl/CMActivities-DataSet/blob/master/Audio_Model_Example.ipynb)
+- Training accuracy: 99.9%
+- Validation accuracy: 99.5%
+- Test accuracy: 90.9%
+
+### IMU Model
+- [IMU Model Training Notebook](aaa)
+- Training accuracy: 99.8%
+- Validation accuracy: 95%
+- Test accuracy: 90.5%
