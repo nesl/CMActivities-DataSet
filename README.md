@@ -30,7 +30,7 @@ See the following publication for more details on the data processing and collec
 - Test accuracy: 90.9%
 
 ### IMU Model
-- [IMU Model Training Notebook](aaa)
+- [IMU Model Training Notebook](https://github.com/nesl/CMActivities-DataSet/blob/master/IMU_Model_Example.ipynb)
 - Training accuracy: 99.8%
 - Validation accuracy: 95%
 - Test accuracy: 90.5%
