@@ -1,7 +1,7 @@
 # CMActivities-DataSet
 
 ## More details about the dataset
-See the following publication for more details on the data processing and collection process. Please cite the following paper when using the dataset. We have provided the sample training scripts.
+See the following publication for more details on the data processing and collection process. Please cite the following paper when using the dataset. We have provided the sample training scripts to show the usage of the dataset along with the model architectures.
 
 ```
 @inproceedings{xing2018enabling,
@@ -21,6 +21,7 @@ See the following publication for more details on the data processing and collec
 - [Validation samples download](https://drive.google.com/file/d/12s-eaw5w-X1jN2uS0x0DYM9CFAicwmnj/view?usp=sharing)
 - [Test samples download](https://drive.google.com/file/d/1A5SW8ttsYzYKTvoqWdRJ_e5gQLJ67C2I/view?usp=sharing)
 - More data processing details are in the publication.
+- We plan to release the video samples using the intermediate representation soon. 
 
 ## Sample Model Training Scripts
 ### Audio Model
