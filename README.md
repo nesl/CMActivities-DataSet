@@ -41,3 +41,21 @@ CMActivities dataset is collected from two performers doing seven activities (up
 - Training accuracy: 99.8%
 - Validation accuracy: 95%
 - Test accuracy: 90.5%
+
+## Time-shift Data Augmentation Code
+```
+@inproceedings{sandha2020time,
+  title={Time awareness in deep learning-based multimodal fusion across smartphone platforms},
+  author={Sandha, Sandeep Singh and Noor, Joseph and Anwar, Fatima M and Srivastava, Mani},
+  booktitle={2020 IEEE/ACM Fifth International Conference on Internet-of-Things Design and Implementation (IoTDI)},
+  pages={149--156},
+  year={2020},
+  organization={IEEE}
+}
+```
+## The following notebooks are written with comments for Time-shift data augmentation
+
+- Fusion_Training_Vanilla.ipynb: Vanilla fusion training code with audio and IMU modalities synced.
+- Augmentation_Data_generation.ipynb: Create augmented training data by introducing artificial errors between audio and IMU modalities.
+- Fusion_Training_Augmented_1000ms.ipynb: Training fusion model with 1000ms time-shift augmentation.
+- Testing_Time_Shifting_1000ms.ipynb: Tests the vanilla model and augmented model on the testing data by introducing errors in the test data.
