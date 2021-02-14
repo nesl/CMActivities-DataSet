@@ -55,7 +55,9 @@ CMActivities dataset is collected from two performers doing seven activities (up
 ```
 ## The following notebooks are written with comments for Time-shift data augmentation
 
-- Fusion_Training_Vanilla.ipynb: Vanilla fusion training code with audio and IMU modalities synced.
-- Augmentation_Data_generation.ipynb: Create augmented training data by introducing artificial errors between audio and IMU modalities.
-- Fusion_Training_Augmented_1000ms.ipynb: Training fusion model with 1000ms time-shift augmentation.
-- Testing_Time_Shifting_1000ms.ipynb: Tests the vanilla model and augmented model on the testing data by introducing errors in the test data.
+1. Fusion_Training_Vanilla.ipynb: Vanilla fusion training code with audio and IMU modalities synced.
+2. Augmentation_Data_generation.ipynb: Create augmented training data by introducing artificial errors between audio and IMU modalities.
+3. Fusion_Training_Augmented_1000ms.ipynb: Training fusion model with 1000ms time-shift augmentation.
+4. Testing_Time_Shifting_1000ms.ipynb: Tests the vanilla model and augmented model on the testing data by introducing errors in the test data.
+
+**Note**: Notebook-1 (Fusion_Training_Vanilla.ipynb) directly uses the data samples available for download. Notebook-2 (Augmentation_Data_generation.ipynb) creates new augmented samples used by the Notebook-3 (Fusion_Training_Augmented_1000ms.ipynb). Notebook-4 (Testing_Time_Shifting_1000ms.ipynb) uses the models trained by Notebook-1 and Notebook-3 along with the test data samples that are available. 
