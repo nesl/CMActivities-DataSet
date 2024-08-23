@@ -23,10 +23,10 @@ CMActivities dataset is collected from two performers doing seven activities (up
 ## Released Data
 - The audio and IMU windowed samples are released. Audio samples are processed, and 193 features are extracted. IMU samples are available in raw form.
 - The training, validation, and test samples are available below.
-- [Training samples download](https://drive.google.com/file/d/1S9yFuHarB6jPD11Ddv87oG30TgY5ivDN/view?usp=sharing)
-- [Validation samples download](https://drive.google.com/file/d/12s-eaw5w-X1jN2uS0x0DYM9CFAicwmnj/view?usp=sharing)
-- [Test samples download](https://drive.google.com/file/d/1A5SW8ttsYzYKTvoqWdRJ_e5gQLJ67C2I/view?usp=sharing)
-- Other samples from CMActivities dataset: [Transfer samples download](https://drive.google.com/file/d/1dPN3npf63i_Z1hXMC754LLB07_xZGqeu/view?usp=sharing), [Limited train download](https://drive.google.com/file/d/1TUy6k78EMJs6bTIIYg_xZeXs9Z0Qm9qZ/view?usp=sharing), [Personalization download](https://drive.google.com/file/d/1Q4HfTYMLcLVsyT2jAwdHB_a8xqzqkrEq/view?usp=sharing)
+- [Training samples download](https://drive.google.com/drive/folders/1BpMm3rIPeRlTcT5I3_ZLqHn-U09m7_7P?usp=sharing)
+- [Validation samples download](https://drive.google.com/drive/folders/1BpMm3rIPeRlTcT5I3_ZLqHn-U09m7_7P?usp=sharing)
+- [Test samples download](https://drive.google.com/drive/folders/1BpMm3rIPeRlTcT5I3_ZLqHn-U09m7_7P?usp=sharing)
+- Other samples from CMActivities dataset: [Transfer samples download](https://drive.google.com/drive/folders/1BpMm3rIPeRlTcT5I3_ZLqHn-U09m7_7P?usp=sharing), [Limited train download](https://drive.google.com/drive/folders/1BpMm3rIPeRlTcT5I3_ZLqHn-U09m7_7P?usp=sharing), [Personalization download](https://drive.google.com/drive/folders/1BpMm3rIPeRlTcT5I3_ZLqHn-U09m7_7P?usp=sharing)
 - More data processing details are in the publication.
 - We plan to release the video samples using the intermediate representation soon. 
 
